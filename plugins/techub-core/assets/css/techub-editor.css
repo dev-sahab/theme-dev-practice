@@ -1,0 +1,19 @@
+.th-widget-icon::after {
+  content: "TH";
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  color: #dedede; /* #556068; */
+  font-size: 9px;
+  border: 1px solid #dedede;
+  font-weight: 400;
+  padding: 1px 2px;
+  line-height: 10px;
+  display: inline-block;
+  border-radius: 2px;
+  font-family: "Open Sans", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.elementor-element-wrapper:hover .th-widget-icon::after::after {
+  color: #d30c5c;
+}

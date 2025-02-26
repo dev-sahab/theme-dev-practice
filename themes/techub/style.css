@@ -1,0 +1,68 @@
+/**
+ * Theme Name:        Techub
+ * Theme URI:         https://html.storebuild.shop/techub-prev/techub/index.html
+* Description:        Techub – IT Services, IT Technology and IT Solutions Template use 22+ Pages with Premium Design! We can be used by agencies, apps, businesses, digital, IT services, IT solutions, network solutions, saas, services, software, startup, technology, a technology company, and technology service template with a super friendly and 100% responsive layouts. The template comes with a creative only 5 plus homepages design layout, responsive and 22+ valid HTML files. The design is very elegant and modern, and also very easy to customize with 1170px update bootstrap grid. We hope, you’ll obviously feel happy with using this template.
+
+To ensure that it meets your demanding requirements, we have tested our HTML Template to make sure it adapts itself to any device in which your users are viewing it, whether be it a laptop, mobile, or tablet! 
+ * Version:           1.0.0
+ * Author:            Sahab Uddin
+ * Author URI:        https://sahabuddin.me
+ * Tags:               agency, ai, chatgpt, cyber security, education, it agency, it services, it solutions, security, tech 
+ * Text Domain:       techub
+ * Domain Path:       /assets/lang
+ * Tested up to:      6.4
+ * Requires at least: 6.2
+ * Requires PHP:      7.4
+ * License:           GNU General Public License v2.0 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+.swiper-button-next,
+.swiper-button-prev {
+  background: #ddd;
+  height: 40px;
+  width: 30px;
+  border-radius: 5px;
+  font-weight: 900;
+  transition: all 0.3s ease-in-out;
+  color: #000;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #fff;
+  background: #c7c6c6;
+}
+.widget_techub_recent_posts_widget .rc__post-thumb img {
+  width: 70px;
+  height: 72px;
+  object-fit: cover;
+}
+.cat-item {
+  position: relative;
+}
+.widget_categories .cat-item::after {
+  content: "\f061";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 900;
+  position: absolute;
+  right: 45px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.4s;
+  visibility: hidden;
+  opacity: 0;
+}
+.widget_categories .cat-item:hover::after {
+  color: var(--tp-theme-primary);
+  right: 25px;
+  visibility: visible;
+  opacity: 1;
+}
+.blogCardSlider img {
+  height: 480px;
+  width: 100%;
+  object-fit: cover;
+}
+.postbox__comment .children {
+  margin-left: 50px;
+}
